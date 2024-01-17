@@ -22,7 +22,7 @@ nav{
     gap: 10px;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .hamburg{
         display: block;
       
@@ -84,14 +84,14 @@ nav{
     justify-content: center;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .box{
         display: flex;
         flex-direction: column;
         width: 80%;
     }
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .box input{
         
         width: 90%;
@@ -99,7 +99,7 @@ nav{
         font-size: 30px;
     }
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .btn{
         
         width: 90%;
@@ -139,7 +139,7 @@ nav{
 
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .our{
         
        display: flex;
@@ -193,7 +193,7 @@ nav{
 }
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .do-grid{
         display: grid;
         grid-template-columns: 1fr;
@@ -226,7 +226,7 @@ nav{
 }
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .why1{
         display: flex;
         flex-direction: column;
@@ -276,7 +276,7 @@ nav{
 }
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
     .newsletter{
         display: flex;
         flex-direction: column;
