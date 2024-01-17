@@ -1,16 +1,36 @@
+
 body{
     font-family: 'Merriweather', serif;
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 
 /* ----------nav home----------- */
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hamburg{
+    display: none;
+}
 
 .home{
     list-style: none;
     display: flex;
     gap: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .hamburg{
+        display: block;
+      
+    }
+    .ul{
+        display: none;
+      
+    }
 }
 
 
@@ -103,7 +123,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 }
 
 .read-btn{
@@ -115,6 +135,7 @@ body{
     align-items: center; 
     justify-content: center;
     border: none;
+    color: white;
 
 }
 
@@ -184,3 +205,99 @@ body{
     }
 
 }
+
+
+
+
+/* --------------why-------- */
+
+.why1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.why2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+@media screen and (max-width:576px) {
+    .why1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    
+
+}
+
+
+/* ----------newslatter--------- */
+
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* .pocha-pic{
+    position: relative;
+    width: 100%;
+}
+
+.pocha-pic img{
+    width: 100%;
+    
+} */
+
+.pocha{
+    background-color: coral;
+    border-radius: 5px;
+    height: 100px;
+    width: 200px;
+    color: white;
+    transform: rotate(-30deg);
+    position: absolute;
+    margin-left:280px;
+    margin-top: -150px;
+    
+    
+    
+
+
+}
+
+
+@media screen and (max-width:576px) {
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    
+
+}
+
+
+/* --------foot */
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
