@@ -86,3 +86,101 @@ body{
         height: 70px;
     }
 }
+
+
+
+
+/* ----------------------Our Popular Tours--------- */
+
+.our{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.our1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.read-btn{
+    background-color: deeppink; 
+    height: 40px; 
+    width: 150px;
+    border-radius: 8px; 
+    display:flex; 
+    align-items: center; 
+    justify-content: center;
+    border: none;
+
+}
+
+@media screen and (max-width:576px) {
+    .our{
+        
+       display: flex;
+       flex-direction: column;
+}
+
+}
+
+
+
+
+/* --------------choose your--- */
+
+.img-container{
+    position: relative;
+    width: 100%;
+}
+
+.img-container img{
+    width: 100%;
+    height: 300px;
+}
+
+.text-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.do-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.do-grid1, .do-grid2{
+    grid-column: span 2;
+}
+.do-grid4{
+    grid-column: span 2;
+}
+
+.do-grid7{
+    grid-column: span 3;
+}
+
+
+@media screen and (max-width:576px) {
+    .do-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .do-grid1, .do-grid2, .do-grid4, .do-grid7{
+        grid-column: span 1;
+    }
+
+}
