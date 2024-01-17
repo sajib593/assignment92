@@ -1,0 +1,14 @@
+body{
+    font-family: 'Merriweather', serif;
+    width: 90%;
+    margin: auto;
+}
+
+
+/* ----------nav home----------- */
+
+.home{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
